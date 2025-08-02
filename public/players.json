@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "cover_img": "https://i.ibb.co/4d3L1Xz/cricket-cover-1.jpg",
+    "profile_img": "https://i.ibb.co/W3MP6r6/profile-1.jpg",
+    "name": "Ayaan Haider",
+    "country": "Pakistan",
+    "player_types": "All-Rounder",
+    "rating": 8.6,
+    "hand": "Right-hand",
+    "price": "$950,000"
+  },
+  {
+    "id": 2,
+    "cover_img": "https://i.ibb.co/ccJtdV6/cricket-cover-2.jpg",
+    "profile_img": "https://i.ibb.co/x6J4c1P/profile-2.jpg",
+    "name": "Ravi Nair",
+    "country": "India",
+    "player_types": "Batsman",
+    "rating": 9.2,
+    "hand": "Left-hand",
+    "price": "$1,200,000"
+  },
+  {
+    "id": 3,
+    "cover_img": "https://i.ibb.co/Ch5VGVv/cricket-cover-3.jpg",
+    "profile_img": "https://i.ibb.co/0JxKkxH/profile-3.jpg",
+    "name": "Liam Carter",
+    "country": "England",
+    "player_types": "Bowler",
+    "rating": 7.9,
+    "hand": "Right-hand",
+    "price": "$700,000"
+  },
+  {
+    "id": 4,
+    "cover_img": "https://i.ibb.co/7bNkRdn/cricket-cover-4.jpg",
+    "profile_img": "https://i.ibb.co/GPZzKFW/profile-4.jpg",
+    "name": "Nashit Rahman",
+    "country": "Bangladesh",
+    "player_types": "Wicket-Keeper",
+    "rating": 8.4,
+    "hand": "Right-hand",
+    "price": "$850,000"
+  },
+  {
+    "id": 5,
+    "cover_img": "https://i.ibb.co/ypmnrxW/cricket-cover-5.jpg",
+    "profile_img": "https://i.ibb.co/mRzcf4V/profile-5.jpg",
+    "name": "Mitchell Ross",
+    "country": "Australia",
+    "player_types": "All-Rounder",
+    "rating": 9.0,
+    "hand": "Left-hand",
+    "price": "$1,000,000"
+  },
+  {
+    "id": 6,
+    "cover_img": "https://i.ibb.co/xj9mLhg/cricket-cover-6.jpg",
+    "profile_img": "https://i.ibb.co/3ChBf6D/profile-6.jpg",
+    "name": "Zubair Khan",
+    "country": "Afghanistan",
+    "player_types": "Bowler",
+    "rating": 7.5,
+    "hand": "Right-hand",
+    "price": "$600,000"
+  },
+  {
+    "id": 7,
+    "cover_img": "https://i.ibb.co/QcGVk5f/cricket-cover-7.jpg",
+    "profile_img": "https://i.ibb.co/VpsPHJW/profile-7.jpg",
+    "name": "Jason Mendes",
+    "country": "West Indies",
+    "player_types": "Batsman",
+    "rating": 8.1,
+    "hand": "Right-hand",
+    "price": "$900,000"
+  },
+  {
+    "id": 8,
+    "cover_img": "https://i.ibb.co/tKJYzr1/cricket-cover-8.jpg",
+    "profile_img": "https://i.ibb.co/ZK1L3zP/profile-8.jpg",
+    "name": "Keshav Iyer",
+    "country": "India",
+    "player_types": "Wicket-Keeper",
+    "rating": 7.8,
+    "hand": "Left-hand",
+    "price": "$720,000"
+  },
+  {
+    "id": 9,
+    "cover_img": "https://i.ibb.co/HGx0p7Y/cricket-cover-9.jpg",
+    "profile_img": "https://i.ibb.co/qYXnMNV/profile-9.jpg",
+    "name": "David Taylor",
+    "country": "South Africa",
+    "player_types": "All-Rounder",
+    "rating": 8.7,
+    "hand": "Right-hand",
+    "price": "$1,050,000"
+  },
+  {
+    "id": 10,
+    "cover_img": "https://i.ibb.co/SnGVgQ5/cricket-cover-10.jpg",
+    "profile_img": "https://i.ibb.co/6P9Nqg0/profile-10.jpg",
+    "name": "Soumya Sarker",
+    "country": "Bangladesh",
+    "player_types": "Batsman",
+    "rating": 7.9,
+    "hand": "Left-hand",
+    "price": "$770,000"
+  },
+  {
+    "id": 11,
+    "cover_img": "https://i.ibb.co/86tkPvY/cricket-cover-11.jpg",
+    "profile_img": "https://i.ibb.co/wNmTbKZ/profile-11.jpg",
+    "name": "Marcus Fielder",
+    "country": "New Zealand",
+    "player_types": "Bowler",
+    "rating": 8.2,
+    "hand": "Right-hand",
+    "price": "$870,000"
+  },
+  {
+    "id": 12,
+    "cover_img": "https://i.ibb.co/J5VX9Yk/cricket-cover-12.jpg",
+    "profile_img": "https://i.ibb.co/k9V3yt0/profile-12.jpg",
+    "name": "Tommy Robinson",
+    "country": "England",
+    "player_types": "Batsman",
+    "rating": 8.9,
+    "hand": "Left-hand",
+    "price": "$1,100,000"
+  },
+  {
+    "id": 13,
+    "cover_img": "https://i.ibb.co/NKTrS0M/cricket-cover-13.jpg",
+    "profile_img": "https://i.ibb.co/XsQwbgM/profile-13.jpg",
+    "name": "Azim Chowdhury",
+    "country": "Bangladesh",
+    "player_types": "Wicket-Keeper",
+    "rating": 7.7,
+    "hand": "Right-hand",
+    "price": "$680,000"
+  },
+  {
+    "id": 14,
+    "cover_img": "https://i.ibb.co/HCMM2hD/cricket-cover-14.jpg",
+    "profile_img": "https://i.ibb.co/CM8fJMg/profile-14.jpg",
+    "name": "Steve Holloway",
+    "country": "Australia",
+    "player_types": "All-Rounder",
+    "rating": 8.5,
+    "hand": "Right-hand",
+    "price": "$980,000"
+  },
+  {
+    "id": 15,
+    "cover_img": "https://i.ibb.co/qN4pbMZ/cricket-cover-15.jpg",
+    "profile_img": "https://i.ibb.co/BKBvshv/profile-15.jpg",
+    "name": "Hashim Jaffer",
+    "country": "UAE",
+    "player_types": "Bowler",
+    "rating": 7.4,
+    "hand": "Left-hand",
+    "price": "$590,000"
+  }
+]
