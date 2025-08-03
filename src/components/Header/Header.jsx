@@ -21,7 +21,7 @@ const Header = () => {
                         <li><a href="">Schedules</a></li>
                     </ul>
                     <div className='border px-1 py-1 md:py-3 md:px-4 rounded-lg flex items-center gap-1 md:gap-3'>
-                        <p className='text-[10px] md:text-[16px]'>{coin}</p>
+                        <p className='text-[10px] md:text-[16px] font-bold'>{coin}</p>
                         <LiaCoinsSolid className='md:w-5 md:h-5 text-yellow-400'></LiaCoinsSolid>
                     </div>
                 </div>
