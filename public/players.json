@@ -8,7 +8,7 @@
     "player_types": "All-Rounder",
     "rating": 8.6,
     "hand": "Right-hand",
-    "price": "$950,000"
+    "price": "950000"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "player_types": "Batsman",
     "rating": 9.2,
     "hand": "Left-hand",
-    "price": "$1,200,000"
+    "price": "1200000"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "player_types": "Bowler",
     "rating": 7.9,
     "hand": "Right-hand",
-    "price": "$700,000"
+    "price": "700000"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "player_types": "Wicket-Keeper",
     "rating": 8.4,
     "hand": "Right-hand",
-    "price": "$850,000"
+    "price": "850000"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "player_types": "All-Rounder",
     "rating": 9.0,
     "hand": "Left-hand",
-    "price": "$1,000,000"
+    "price": "1000000"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "player_types": "Bowler",
     "rating": 7.5,
     "hand": "Right-hand",
-    "price": "$600,000"
+    "price": "600000"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "player_types": "Batsman",
     "rating": 8.1,
     "hand": "Right-hand",
-    "price": "$900,000"
+    "price": "900000"
   },
   {
     "id": 8,
@@ -85,7 +85,7 @@
     "player_types": "Wicket-Keeper",
     "rating": 7.8,
     "hand": "Left-hand",
-    "price": "$720,000"
+    "price": "720000"
   },
   {
     "id": 9,
@@ -96,7 +96,7 @@
     "player_types": "All-Rounder",
     "rating": 8.7,
     "hand": "Right-hand",
-    "price": "$1,050,000"
+    "price": "1050000"
   },
   {
     "id": 10,
@@ -107,7 +107,7 @@
     "player_types": "Batsman",
     "rating": 7.9,
     "hand": "Left-hand",
-    "price": "$770,000"
+    "price": "770000"
   },
   {
     "id": 11,
@@ -118,7 +118,7 @@
     "player_types": "Bowler",
     "rating": 8.2,
     "hand": "Right-hand",
-    "price": "$870,000"
+    "price": "870000"
   },
   {
     "id": 12,
@@ -129,7 +129,7 @@
     "player_types": "Batsman",
     "rating": 8.9,
     "hand": "Left-hand",
-    "price": "$1,100,000"
+    "price": "1100000"
   },
   {
     "id": 13,
@@ -140,7 +140,7 @@
     "player_types": "Wicket-Keeper",
     "rating": 7.7,
     "hand": "Right-hand",
-    "price": "$680,000"
+    "price": "680000"
   },
   {
     "id": 14,
@@ -151,7 +151,7 @@
     "player_types": "All-Rounder",
     "rating": 8.5,
     "hand": "Right-hand",
-    "price": "$980,000"
+    "price": "980000"
   },
   {
     "id": 15,
@@ -162,6 +162,6 @@
     "player_types": "Bowler",
     "rating": 7.4,
     "hand": "Left-hand",
-    "price": "$590,000"
+    "price": "590000"
   }
 ]

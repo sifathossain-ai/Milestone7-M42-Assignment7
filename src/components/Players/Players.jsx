@@ -13,7 +13,7 @@ const Players = () => {
             <div className="flex justify-between items-center">
                 <h3 className="md:text-xl font-bold">Available Players</h3>
                 <div>
-                    <button className="border text-[12px] py-1 px-2 md:py-2 md:px-3 rounded-lg mr-1 md:mr-2">Available</button>
+                    <button className="border text-[12px] py-1 px-2 md:py-2 md:px-3 rounded-lg mr-2 md:mr-3">Available</button>
                     <button className="border text-[12px] py-1 px-2 md:py-2 md:px-3 rounded-lg">Selected</button>
                 </div>
             </div>
