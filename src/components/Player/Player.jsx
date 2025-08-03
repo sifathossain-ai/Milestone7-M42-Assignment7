@@ -1,7 +1,7 @@
 import { HiMiniFlag } from "react-icons/hi2";
-const Player = ({ player }) => {
+const Player = ({ player, handleChosePlayers }) => {
     const { name, cover_img, profile_img, player_types, country, rating, hand, price } = player;
-    console.log(player);
+    // console.log(player);
     return (
         <div className="border rounded-lg p-3 space-y-3">
             <img className="rounded-lg w-full h-auto" src={cover_img} alt="" />
@@ -25,7 +25,7 @@ const Player = ({ player }) => {
                 </div>
                 <div className="flex justify-between items-center">
                     <h4>Price: $ {price} </h4>
-                    <button className="border px-2 py-1 md:px-3 rounded-lg font-normal"><small>Chose Player</small></button>
+                    <button onClick={() => handleChosePlayers(player)} className="border px-2 py-1 md:px-3 rounded-lg font-normal"><small>Chose Player</small></button>
                 </div>
             </div>
         </div>
