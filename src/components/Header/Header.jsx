@@ -1,13 +1,25 @@
 import logo from '../../assets/images/logo.png'
 import { LiaCoinsSolid } from "react-icons/lia";
 import banner from '../../assets/images/banner-main.png'
-import { useState } from 'react';
-const Header = () => {
+import { useEffect, useState } from 'react';
+import App from '../../App';
+const Header = ({ getCoin }) => {
     const [coin, setCoin] = useState(0);
 
     const addCoin = () => {
-        setCoin(coin + 50000);
+        setCoin(coin + 500000);
     }
+
+    useEffect(() => {
+        const getCoinFromBtn = JSON.parse(getCoin);
+        
+        if (getCoinFromBtn > 0){
+            if (getCoinFromBtn <= coin){
+                setCoin(coin - getCoinFromBtn);
+            }
+            else alert("You unavailable to buy this player!");
+        }
+    },[getCoin])
 
     return (
         <>
@@ -35,10 +47,9 @@ const Header = () => {
                     </button>
                 </div>
             </div>
-
         </>
-
     );
 };
+
 
 export default Header;

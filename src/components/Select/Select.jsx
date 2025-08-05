@@ -1,7 +1,7 @@
 import { RiDeleteBin6Line } from "react-icons/ri";
 const Select = ({ player, handleDelete }) => {
     const { profile_img, name, hand, id } = player;
-    console.log(player);
+    // console.log(player);
     return (
         <div className="mb-3">
             <div className="border rounded-lg p-3 flex justify-between">
