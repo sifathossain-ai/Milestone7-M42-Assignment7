@@ -3,12 +3,10 @@ import ToggleButton from "../ToggleButton/ToggleButton";
 
 const Selected = ({ players, handleDelete }) => {
     // console.log(players);
-    const selectedPlayer = players.length;
     return (
-        <div className="my-20">
+        <div className="mt-8 mb-20">
             <div className="flex justify-between items-center">
                 <h2 className="md:text-xl font-semibold">Selected Player ({players.length}/6)</h2>
-                <ToggleButton selectedPlayer={selectedPlayer}></ToggleButton>
             </div>
             <div className="mt-8">
                 {

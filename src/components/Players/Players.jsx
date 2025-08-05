@@ -11,10 +11,9 @@ const Players = ({handleChosePlayers}) => {
     }, [])
 
     return (
-        <div className=" my-20">
+        <div className="mt-8 mb-20">
             <div className="flex justify-between items-center">
                 <h3 className="md:text-xl font-bold">Available Players</h3>
-                <ToggleButton></ToggleButton>
             </div>
             <div className="mt-8 grid md:grid-cols-2 lg:grid-cols-3 gap-3">
                 {

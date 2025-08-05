@@ -12,14 +12,12 @@ const Header = ({ getCoin }) => {
 
     useEffect(() => {
         const getCoinFromBtn = JSON.parse(getCoin);
-        
-        if (getCoinFromBtn > 0){
-            if (getCoinFromBtn <= coin){
-                setCoin(coin - getCoinFromBtn);
-            }
-            else alert("You unavailable to buy this player!");
+
+        if (getCoinFromBtn <= coin) {
+            setCoin(prev => prev - getCoinFromBtn);
         }
-    },[getCoin])
+        else alert("You unavailable to buy this player!");
+    }, [getCoin])
 
     return (
         <>
