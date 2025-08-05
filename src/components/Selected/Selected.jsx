@@ -1,7 +1,7 @@
 import Select from "../Select/Select";
 import ToggleButton from "../ToggleButton/ToggleButton";
 
-const Selected = ({ players }) => {
+const Selected = ({ players, handleDelete }) => {
     // console.log(players);
     const selectedPlayer = players.length;
     return (
@@ -12,7 +12,11 @@ const Selected = ({ players }) => {
             </div>
             <div className="mt-8">
                 {
-                    players.map((player, idx) => <Select key={idx} player={player}></Select>)
+                    players.map((player, idx) => <Select 
+                    key={idx} 
+                    player={player}
+                    handleDelete = {handleDelete}
+                    ></Select>)
                 }
             </div>
         </div>

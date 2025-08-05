@@ -5,26 +5,33 @@ import Players from './components/Players/Players'
 import Selected from './components/Selected/Selected'
 
 function App() {
-  const [players, setPlayers] =  useState([])
+  const [players, setPlayers] = useState([])
 
   const handleChosePlayers = (player) => {
     // console.log(player);
     const newPlayers = [...players, player]
-    if (players.length > 5){
+    if (players.length > 5) {
       alert("You can't add any one!")
     }
-    else{
+    else {
       setPlayers(newPlayers);
     }
   }
 
-
+  const handleDelete = (id) => {
+    const remaining = players.filter(idx => idx.id != id);
+    setPlayers(remaining) 
+    console.log("Button was Clicked!", id);
+  }
 
   return (
     <div className='max-w-7xl mx-auto py-7 px-2'>
       <Header></Header>
       <Players handleChosePlayers={handleChosePlayers}></Players>
-      <Selected players={players}></Selected>
+      <Selected
+        players={players}
+        handleDelete={handleDelete}
+      ></Selected>
     </div>
   )
 }

@@ -1,6 +1,6 @@
 import { RiDeleteBin6Line } from "react-icons/ri";
-const Select = ({ player }) => {
-    const { profile_img, name, hand } = player;
+const Select = ({ player, handleDelete }) => {
+    const { profile_img, name, hand, id } = player;
     console.log(player);
     return (
         <div className="mb-3">
@@ -12,7 +12,7 @@ const Select = ({ player }) => {
                         <small className="text-gray-500">{hand}</small>
                     </div>
                 </div>
-                <button className="text-red-400"><RiDeleteBin6Line></RiDeleteBin6Line></button>
+                <button onClick={() => handleDelete(id)} className="text-red-400"><RiDeleteBin6Line></RiDeleteBin6Line></button>
             </div>
         </div>
     );
